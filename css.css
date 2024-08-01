@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: monospace;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c22b2b;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    align-content: space-between;
+}
+.containerForm {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #c22b2b;
+}
+
+.containerForm1 {
+    width: 100%;
+    height: 100%;
+
+    background-color: #c22b2b;
+}
+
+input {
+    margin: 5px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subBody {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #f15353;
+    border: solid;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxElements {
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.boxElements img {
+    width: 70%;
+    height: 200px;
+}
+
+.boxElements button {
+    top:50%;
+    width: 70px;
+    height: 20px;
+    color: #000000;
+    border:none;
+    border-radius:10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.dell {
+    background-color: #ff0000;
+}
+.test-post {
+    width: 80px;
+    height: 40px;
+}
